@@ -4,7 +4,8 @@ on:
   push:
     branches:
       - main
-
+  schedule: # at the begining of every month
+    - cron: '0 0 1 * *'
 env:
   IMAGE_NAME: caddy-dns-cloudflare
 
