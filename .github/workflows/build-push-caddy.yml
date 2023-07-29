@@ -30,4 +30,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/ravimulpuri/${{ env.IMAGE_NAME }}:latest
+          tags: ghcr.io/rtmlp/${{ env.IMAGE_NAME }}:latest
